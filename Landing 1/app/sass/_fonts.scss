@@ -1,0 +1,11 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-re", "../fonts/Roboto/roboto-regular-webfont");
+@include font-face("Montserrat-r", "../fonts/Montserrat-Regular/montserrat-regular-webfont");
+@include font-face("Montserrat-l", "../fonts/Montserrat-Light/montserrat-light-webfont");
+@include font-face("MerriweatherlighIt", "../fonts/MerriweatherlighIt/merriweather-lightit-webfont");
+@include font-face("Merriweatherligh", "../fonts/Merriweatherligh/merriweather_light-webfont");
+@include font-face("HelveticaNeueLTPro-Cn", "../fonts/HelveticaNeueLTPro-Cn/HelveticaNeueLTPro-Cn");
+@include font-face("HelveticaNeueLTPro-LtEx", "../fonts/HelveticaNeueLTPro-LtEx/HelveticaNeueLTPro-LtEx");
+
+

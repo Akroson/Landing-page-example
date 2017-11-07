@@ -1,0 +1,11 @@
+@import "_mixins/font-face";
+
+@include font-face("Montserrat-Bold", "../fonts/Montserrat-Bold/montserrat-bold-webfont");
+@include font-face("Montserrat-Regular", "../fonts/Montserrat-Regular/montserrat-regular-webfont");
+@include font-face("Playfairdisplay", "../fonts/Playfairdisplay/playfairdisplay-italic-webfont");
+@include font-face("Raleway", "../fonts/Raleway/raleway-regular-webfont");
+@include font-face("Raleway-Bold", "../fonts/Raleway-Bold/raleway-bold-webfont");
+@include font-face("Raleway-SemiBold", "../fonts/Raleway-SemiBold/raleway-semibold-webfont");
+@include font-face("RobotoCondensed-Bold", "../fonts/RobotoCondensed-Bold/robotocondensed-bold-webfont");
+
+

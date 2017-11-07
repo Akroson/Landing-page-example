@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include font-face("Roboto-Regular", "../fonts/Roboto-Regular/roboto-regular-webfont");
+@include font-face("KaushanScript", "../fonts/KaushanScript-Regular/kaushanscript-regular-webfont");
+@include font-face("Montserrat-Bold", "../fonts/Montserrat-Bold/montserrat-bold-webfont");
+@include font-face("Montserrat-Regular", "../fonts/Montserrat-Regular/montserrat-regular-webfont");
+@include font-face("Roboto-LightItalic", "../fonts/Roboto-LightItalic/roboto-lightitalic-webfont");
+
+
