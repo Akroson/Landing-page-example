@@ -16,11 +16,21 @@ $(function() {
 		
 	})
 	
+	var visible = false;
+
 	$('.search-link').on('click', function(e) {
 		e.preventDefault();
 
-		$('.serach-form__wrap').toggle()
-		// $('.search-form__area').focus();
+		if (!visible) {
+			$('.serach-form__wrap').show();
+			$('.search-form__area').focus();
+		} else {
+			$('.search-form__area').blur(function(e) {
+				$('.serach-form__wrap').hide();
+			})
+		}
+
+		visible = !visible;
 	})
 
 	$('.search-form__area').blur(function(e) {
